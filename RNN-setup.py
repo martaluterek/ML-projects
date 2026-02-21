@@ -1,7 +1,11 @@
 """
 ===============================================================================
 Date        : 2025-11-12
-Description : Functions implementing a Recurrent Neural Network (RNN)
+Description : Functions implementing a Recurrent Neural Network (RNN) from scratch
+using the tinygrad library. The RNN is designed to process sequences of characters
+and learn to predict the next character in a sequence. The code includes an encoder
+to convert characters to one-hot vectors, a step function to perform the RNN computations,
+and a training loop to optimize the model parameters based on the cross-entropy loss.
 ===============================================================================
 """
 
